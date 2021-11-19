@@ -15,7 +15,7 @@ validation()
         fi 
 }
 
-# Órdenes de sistema para la instalaciónde los primeros errores.
+# Órdenes de sistema para la instalación de los primeros errores.
 sudo apt-get update && sudo apt-get install -y equivs 2>/dev/null && sudo apt --fix-broken install && sudo apt install equivs
 validation
 
